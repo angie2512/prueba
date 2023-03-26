@@ -24,8 +24,9 @@ public class GamesController {
         return "/juegos/lista";
     };
 
+    @GetMapping("/juegos/editar")
     public String editarJuegos(){
-        return "";
+        return "/juegos/editar";
     };
 
     public String guardarJuegos(){
